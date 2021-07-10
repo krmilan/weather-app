@@ -1,0 +1,68 @@
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #655f5f;
+    font-family: 'Open Sans', sans-serif;
+    background-image: url('https://source.unsplash.com/1600x900/?nature');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 120%;   
+}
+.card {
+    background-color: #000000d0;
+    color:white;
+    border-radius: 30px;
+    padding: 2em;
+    margin: 1em;
+    width: 100%;
+    max-width: 420px;
+    border-width: 30px;
+
+}
+
+.search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+button {
+    margin: 0.5em;
+    border-radius: 50%;
+    height: 44px;
+    width: 44px;
+    border: none;
+    cursor: pointer;
+    background-color: #7c7c7c7b;
+    transition: 0.2s ease-in-out;
+}
+
+input.search-bar {
+
+        border: none;
+        outline: none;  
+        padding: 0.4em 1em;
+        border-radius: 24px;
+        background-color: #e682827b;
+        color: white;
+        font-family: inherit;
+        font-size: 120%;
+    
+}
+button:hover{
+    background-color: #e67e7e9b ;
+}
+
+h1.temp
+{
+margin:0 ;
+}
+.description{
+    text-transform: capitalize;
+}
+
